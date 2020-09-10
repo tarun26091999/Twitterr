@@ -1,0 +1,70 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/login2"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/SignUpButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/passwordEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:onClick="SignUp"
+        android:text="Sign Up" />
+
+    <EditText
+        android:id="@+id/passwordEdit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/usernameEdit"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/usernameEdit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/Logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Username or Phone No"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/Logo"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/logoer"
+        android:layout_marginTop="80dp"
+         />
+
+    <TextView
+        android:id="@+id/change"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SignUpButton"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentRight="false"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Already an user? Login here"
+        android:textColor="#050505"
+        android:textSize="18sp" />
+</RelativeLayout>

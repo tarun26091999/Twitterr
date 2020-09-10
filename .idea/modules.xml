@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" filepath="$PROJECT_DIR$/ParseStarterProject/ParseStarterProject.iml" group="Twitter clone/ParseStarterProject" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Twitter_clone.iml" filepath="$PROJECT_DIR$/.idea/modules/Twitter_clone.iml" group="Twitter_clone" />
+    </modules>
+  </component>
+</project>
